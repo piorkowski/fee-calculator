@@ -1,0 +1,26 @@
+parameters:
+  paths:
+    - ./src
+  exclude_files:
+    - '#^vendor/#'
+    - '#^tests/#'
+  layers:
+    - name: Domain
+      collectors:
+        - type: classLike
+          value: .*Domain.*
+
+    - name: Application
+      collectors:
+        - type: classLike
+          value: .*Application.*
+
+    - name: Infrastructure
+      collectors:
+        - type: classLike
+          value: .*Infrastructure.*
+
+    - name: UI
+      collectors:
+        - type: classLike
+          regex: .*UI/.*

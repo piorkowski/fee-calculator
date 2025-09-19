@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+use Lendable\Interview\UI\CLI\Command\CalculateFeeCommand;
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+/**
+ * Please note that you CAN modify this file in any way to suit your needs, but be advised that it MUST conform to
+ * the contract specified in the README of the test.
+ */
+
+exit(CalculateFeeCommand::default()->run($argv));

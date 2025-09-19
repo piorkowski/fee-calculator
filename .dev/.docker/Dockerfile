@@ -1,0 +1,13 @@
+FROM php:8.4-cli-alpine
+
+RUN apk add --no-cache git zip unzip bash make curl \
+    && curl -sS https://getcomposer.org/installer \
+         | php -- --install-dir=/usr/local/bin --filename=composer
+
+WORKDIR /app
+COPY ./../../ .
+
+RUN composer install --no-interaction --prefer-dist
+
+
+RUN composer dump-autoload -o
