@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Domain\ValueObject;
+namespace Interview\Domain\ValueObject;
 
-use Lendable\Interview\Domain\Exception\NoValidTermException;
+use Interview\Domain\Exception\NoValidTermException;
 
 final readonly class Term
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests;
+namespace Interview\Tests;
 
 use Codeception\Actor;
 

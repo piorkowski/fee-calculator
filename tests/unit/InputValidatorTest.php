@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Unit;
+namespace Interview\Tests\Unit;
 
-use Lendable\Interview\UI\DTO\CliCommandInput;
-use Lendable\Interview\UI\Exception\InvalidCliInputException;
-use Lendable\Interview\UI\Validator\InputValidator;
+use Interview\UI\DTO\CliCommandInput;
+use Interview\UI\Exception\InvalidCliInputException;
+use Interview\UI\Validator\InputValidator;
 use PHPUnit\Framework\TestCase;
 
 final class InputValidatorTest extends TestCase

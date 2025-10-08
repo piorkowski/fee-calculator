@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Domain\ValueObject;
+namespace Interview\Domain\ValueObject;
 
-use Lendable\Interview\Domain\Exception\NegativeAmountException;
-use Lendable\Interview\Domain\Exception\NoValidAmountException;
-use Lendable\Interview\Domain\Exception\TooHighAmountException;
-use Lendable\Interview\Domain\Exception\TooLowerAmountException;
+use Interview\Domain\Exception\NegativeAmountException;
+use Interview\Domain\Exception\NoValidAmountException;
+use Interview\Domain\Exception\TooHighAmountException;
+use Interview\Domain\Exception\TooLowerAmountException;
 
 final readonly class Amount
 {

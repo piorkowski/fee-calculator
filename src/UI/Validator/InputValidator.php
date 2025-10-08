@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\UI\Validator;
+namespace Interview\UI\Validator;
 
-use Lendable\Interview\UI\DTO\CliCommandInput;
-use Lendable\Interview\UI\Exception\InvalidCliInputException;
+use Interview\UI\DTO\CliCommandInput;
+use Interview\UI\Exception\InvalidCliInputException;
 
 final class InputValidator
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Unit;
+namespace Interview\Tests\Unit;
 
-use Lendable\Interview\UI\Exception\InvalidCliInputException;
-use Lendable\Interview\UI\Parser\CliInputParser;
+use Interview\UI\Exception\InvalidCliInputException;
+use Interview\UI\Parser\CliInputParser;
 use PHPUnit\Framework\TestCase;
 
 final class CliInputParserTest extends TestCase

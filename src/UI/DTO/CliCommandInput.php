@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\UI\DTO;
+namespace Interview\UI\DTO;
 
 final readonly class CliCommandInput
 {

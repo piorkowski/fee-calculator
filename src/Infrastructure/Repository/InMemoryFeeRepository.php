@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Infrastructure\Repository;
+namespace Interview\Infrastructure\Repository;
 
-use Lendable\Interview\Application\Repository\FeeRepositoryInterface;
-use Lendable\Interview\Domain\ValueObject\Amount;
-use Lendable\Interview\Domain\ValueObject\Fee;
-use Lendable\Interview\Domain\ValueObject\Term;
-use Lendable\Interview\Infrastructure\Exception\FeeNotFoundException;
+use Interview\Application\Repository\FeeRepositoryInterface;
+use Interview\Domain\ValueObject\Amount;
+use Interview\Domain\ValueObject\Fee;
+use Interview\Domain\ValueObject\Term;
+use Interview\Infrastructure\Exception\FeeNotFoundException;
 
 class InMemoryFeeRepository implements FeeRepositoryInterface
 {

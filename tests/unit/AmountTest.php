@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Unit;
+namespace Interview\Tests\Unit;
 
-use Lendable\Interview\Domain\Exception\NegativeAmountException;
-use Lendable\Interview\Domain\Exception\NoValidAmountException;
-use Lendable\Interview\Domain\Exception\TooHighAmountException;
-use Lendable\Interview\Domain\Exception\TooLowerAmountException;
-use Lendable\Interview\Domain\ValueObject\Amount;
+use Interview\Domain\Exception\NegativeAmountException;
+use Interview\Domain\Exception\NoValidAmountException;
+use Interview\Domain\Exception\TooHighAmountException;
+use Interview\Domain\Exception\TooLowerAmountException;
+use Interview\Domain\ValueObject\Amount;
 use PHPUnit\Framework\TestCase;
 
 final class AmountTest extends TestCase

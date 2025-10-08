@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Domain\ValueObject;
+namespace Interview\Domain\ValueObject;
 
 final readonly class Fee
 {

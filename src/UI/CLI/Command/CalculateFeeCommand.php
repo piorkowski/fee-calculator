@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\UI\CLI\Command;
+namespace Interview\UI\CLI\Command;
 
-use Lendable\Interview\Application\Service\FeeService;
-use Lendable\Interview\Infrastructure\DTO\CalculateFeeDTO;
-use Lendable\Interview\Infrastructure\Repository\InMemoryFeeRepository;
-use Lendable\Interview\Infrastructure\Service\FeeServiceInterface;
-use Lendable\Interview\UI\Exception\InvalidCliInputException;
-use Lendable\Interview\UI\Parser\CliInputParser;
-use Lendable\Interview\UI\Validator\InputValidator;
+use Interview\Application\Service\FeeService;
+use Interview\Infrastructure\DTO\CalculateFeeDTO;
+use Interview\Infrastructure\Repository\InMemoryFeeRepository;
+use Interview\Infrastructure\Service\FeeServiceInterface;
+use Interview\UI\Exception\InvalidCliInputException;
+use Interview\UI\Parser\CliInputParser;
+use Interview\UI\Validator\InputValidator;
 
 final readonly class CalculateFeeCommand
 {

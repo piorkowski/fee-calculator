@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Infrastructure\Service;
+namespace Interview\Infrastructure\Service;
 
-use Lendable\Interview\Infrastructure\DTO\CalculateFeeDTO;
+use Interview\Infrastructure\DTO\CalculateFeeDTO;
 
 interface FeeServiceInterface
 {

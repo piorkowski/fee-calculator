@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Acceptance;
+namespace Interview\Tests\Acceptance;
 
-use Lendable\Interview\Tests\AcceptanceTester;
+use Interview\Tests\AcceptanceTester;
 
 final class CalculateFeeCest
 {

@@ -7,12 +7,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lendable\\Interview\\": "src/"
+            "Interview\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lendable\\Interview\\": "tests/"
+            "Interview\\": "tests/"
         }
     },
     "require-dev": {

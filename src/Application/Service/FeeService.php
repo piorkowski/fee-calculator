@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Application\Service;
+namespace Interview\Application\Service;
 
-use Lendable\Interview\Application\Exception\ApplicationException;
-use Lendable\Interview\Application\Repository\FeeRepositoryInterface;
-use Lendable\Interview\Domain\Service\FeeCalculator;
-use Lendable\Interview\Domain\ValueObject\Amount;
-use Lendable\Interview\Domain\ValueObject\Term;
-use Lendable\Interview\Infrastructure\DTO\CalculateFeeDTO;
-use Lendable\Interview\Infrastructure\Service\FeeServiceInterface;
+use Interview\Application\Exception\ApplicationException;
+use Interview\Application\Repository\FeeRepositoryInterface;
+use Interview\Domain\Service\FeeCalculator;
+use Interview\Domain\ValueObject\Amount;
+use Interview\Domain\ValueObject\Term;
+use Interview\Infrastructure\DTO\CalculateFeeDTO;
+use Interview\Infrastructure\Service\FeeServiceInterface;
 
 final readonly class FeeService implements FeeServiceInterface
 {

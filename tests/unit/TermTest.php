@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Unit;
+namespace Interview\Tests\Unit;
 
-use Lendable\Interview\Domain\Exception\NoValidTermException;
-use Lendable\Interview\Domain\ValueObject\Term;
+use Interview\Domain\Exception\NoValidTermException;
+use Interview\Domain\ValueObject\Term;
 use PHPUnit\Framework\TestCase;
 
 final class TermTest extends TestCase

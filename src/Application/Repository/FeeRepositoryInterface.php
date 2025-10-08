@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Application\Repository;
+namespace Interview\Application\Repository;
 
-use Lendable\Interview\Domain\ValueObject\Amount;
-use Lendable\Interview\Domain\ValueObject\Fee;
-use Lendable\Interview\Domain\ValueObject\Term;
+use Interview\Domain\ValueObject\Amount;
+use Interview\Domain\ValueObject\Fee;
+use Interview\Domain\ValueObject\Term;
 
 interface FeeRepositoryInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\UI\Exception;
+namespace Interview\UI\Exception;
 
 use Exception;
 use Throwable;

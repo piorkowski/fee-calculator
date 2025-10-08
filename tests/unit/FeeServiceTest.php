@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Unit;
+namespace Interview\Tests\Unit;
 
-use Lendable\Interview\Application\Service\FeeService;
-use Lendable\Interview\Infrastructure\DTO\CalculateFeeDTO;
-use Lendable\Interview\Infrastructure\Repository\InMemoryFeeRepository;
+use Interview\Application\Service\FeeService;
+use Interview\Infrastructure\DTO\CalculateFeeDTO;
+use Interview\Infrastructure\Repository\InMemoryFeeRepository;
 use PHPUnit\Framework\TestCase;
 
 final class FeeServiceTest extends TestCase

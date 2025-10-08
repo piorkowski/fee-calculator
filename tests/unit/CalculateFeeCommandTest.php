@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Tests\Unit;
+namespace Interview\Tests\Unit;
 
-use Lendable\Interview\Infrastructure\Service\FeeServiceInterface;
-use Lendable\Interview\UI\CLI\Command\CalculateFeeCommand;
-use Lendable\Interview\UI\Parser\CliInputParser;
-use Lendable\Interview\UI\Validator\InputValidator;
+use Interview\Infrastructure\Service\FeeServiceInterface;
+use Interview\UI\CLI\Command\CalculateFeeCommand;
+use Interview\UI\Parser\CliInputParser;
+use Interview\UI\Validator\InputValidator;
 use PHPUnit\Framework\TestCase;
 
 final class CalculateFeeCommandTest extends TestCase
@@ -15,7 +15,7 @@ final class CalculateFeeCommandTest extends TestCase
     public function testRunSuccess(): void
     {
         $fake = new class () implements FeeServiceInterface {
-            public function calculate(\Lendable\Interview\Infrastructure\DTO\CalculateFeeDTO $dto): int
+            public function calculate(\Interview\Infrastructure\DTO\CalculateFeeDTO $dto): int
             {
                 return 46000;
             }
@@ -31,7 +31,7 @@ final class CalculateFeeCommandTest extends TestCase
     public function testRunUsageError(): void
     {
         $fake = new class () implements FeeServiceInterface {
-            public function calculate(\Lendable\Interview\Infrastructure\DTO\CalculateFeeDTO $dto): int
+            public function calculate(\Interview\Infrastructure\DTO\CalculateFeeDTO $dto): int
             {
                 return 0;
             }

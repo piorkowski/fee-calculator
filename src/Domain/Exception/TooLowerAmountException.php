@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lendable\Interview\Domain\Exception;
+namespace Interview\Domain\Exception;
 
 use Exception;
 
